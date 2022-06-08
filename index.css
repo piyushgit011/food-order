@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    background-size: cover;
+    background-image: url('img/bg.jpg');
+    background-attachment: fixed;
+
+}
+.pic1{
+    background-color: grey;
+    background: url('img/img1.jpg') no-repeat center center/cover;
+    background-repeat: no-repeat;
+    margin:0px;
+}
+#logo img{
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+#name{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+  
+}
+.navbar{
+   display: flex;
+  
+}
+.navbar ul{
+display: flex;
+position: absolute;
+left: 60px;  
+top: 32px;  
+
+
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 1.25rem;
+}
+.navbar ul li a{
+    padding: 3px 9px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+   color: black;
+   background-color: rgb(197, 195, 195);
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+}
+.head{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.btn{
+    border: 2px solid whitesmoke;
+    /* background-color: brown; */
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn :hover{
+    background-color: grey;
+    color: black;
+}
+#services{
+    display: flex;
+    /* display: inline; */
+    overflow: hidden;
+    /* margin: 200px; */
+}
+#services .box{
+    border: 2px solid rgb(8, 4, 4);
+    /* margin: 5px; */
+    /* position: absolute; */
+    padding: 30px;
+    border-radius: 28px;
+    height: 320px;
+    background-color: rgb(238, 59, 59);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#services .box img{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+
+}
+#clients{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+.logo img{
+    align-content: center;
+    height: 200px;
+}
+html{
+    scroll-behavior: smooth;
+}

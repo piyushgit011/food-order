@@ -1,0 +1,23 @@
+#services .box{
+    flex-direction: column;
+    width: 414px;
+    justify-content: center;
+    margin: auto;
+}
+#services{
+    flex-direction: column;
+
+}
+.navbar{
+  align-items: center;
+  justify-content: center;
+}
+.navbar ul{
+    position: relative;
+    top: 70px;
+    left: -70px;
+}
+#logo{
+    position: relative;
+    left: 195px;
+}
